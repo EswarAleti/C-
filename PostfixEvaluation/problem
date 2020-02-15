@@ -1,0 +1,31 @@
+
+
+For this assignment, you are to write a program, which will calculate the results of Reverse Polish expressions that are provided by the user.
+
+You must use a linked list to maintain the stack for this program.
+
+You must handle the following situations (errors):
+Too many operators (+ - / *)
+Too many operands (doubles)
+Division by zero
+
+The program will take in a Polish expression that separates the operators and operands by a single space, and terminates the expression with an equals sign.
+
+The program will continue to take and evaluate expressions until the user enters a zero (0) on a line by itself followed by a new line.
+
+Your sample output should show the handling of all the error conditions as well as make use of all of the operators.
+
+Sample IO: (note: formatting of output isn’t a critical issue but proper input processing is essential)
+Input Output
+10 15 + = 25
+10 15 - = -5
+2.5 3.5 + = 6 (or 6.0)
+10 0 / = Error: Division by zero
+10 20 * / = Error: Too many operators
+12 20 30 / = Error: Too many operands
+-10 -30 - = 20
+100 10 50 25 / * - -2 / = -40
+
+NO ARRAYS
+
+NO LIBRARIES (just <iostream>)
