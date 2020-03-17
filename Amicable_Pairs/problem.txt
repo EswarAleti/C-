@@ -1,0 +1,31 @@
+
+
+Write in C++ Programming (Spring 2020)
+
+Question 5 [15pts]
+
+Write a function to find the first 45 Amicable pairs of numbers (series A259180
+
+on the On-line Encyclopedia of Integer Sequences). A pair of numbers
+
+x
+
+and
+
+y
+
+is called amicable if the
+
+sum of the proper divisors of either one is equal to the other. For example, 220 and 284 is a pair of
+
+amicable numbers. The divisors or 220 are 1, 2, 4, 5, 10, 11, 20, 22, 44, 55, 110. The sum of all those
+
+numbers is equal to 284. The divisors of 284 are 1, 2, 4, 71, 142, which add up to 220. A proper divisor
+
+is one that divides the number without a remainder.
+
+Hint:
+
+use auxiliary functions to break down the
+
+complexity of the task
