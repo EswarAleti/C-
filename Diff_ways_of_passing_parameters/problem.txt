@@ -1,0 +1,7 @@
+Write functions squareByValue, squareByRef, squareByPointer that find the square of an integer, in three different ways:
+
+a)squareByValue should return the square of the number, passing the argument by value.
+
+b)squareByRef should modify the variable in the input to its square, passing by reference.
+
+c)squareByPointer should also modify the variable in the input to its square, but passing the argument by pointer.
