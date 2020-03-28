@@ -1,0 +1,11 @@
+Write a program to read in as set of numbers and build an ordered binary tree.  Your input file is TreeNbrsV2.txt.  The file has integer numbers recorded in it and it also has duplicates numbers.  You will read in a number, search the tree and if the input value is not found, insert a new node in the tree for the given value.  If the input value is found, then you will count the value read in as a duplicate number, ie bump the counter where there is a counter in each node for each number. Each node will have a ‘value’ field (the number read in) and a counter use to count the number of duplicates of said value.  You are to input a single value then either insert or count the value after searching the tree.  (You are not to do any other calculation below while reading and updating the binary tree.)
+
+After building the tree, do the following tasks:
+
+a.    Delete all leaf nodes where the sum of the digits of the number is less than 9
+
+b.   Print out the tree in inorder (only the first 20 values)
+
+c.    Print out the number of nodes in the tree.  
+
+d.  Sum up all the values in the tree (duplicates have to be counted duplicated times) and compute the average.  Print the sum and the average.
