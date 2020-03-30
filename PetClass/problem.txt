@@ -1,0 +1,36 @@
+Pet Class
+
+You are going to organize and show information about pets in a Pet Store using a Pet class.
+
+The Pet class
+
+You need to make a Pet class that holds the following information as private data members:
+
+    the name of the pet (e.g. "Spot", "Fluffy", or any word a user enters)
+    the type of pet (e.g. dog, cat, snake, hamster, or any word a user enters)
+    level of hungriness of the pet (2 means hungry, 1 means content, 0 means full)
+
+Your class also needs to have the following functions:
+
+    a default constructor that sets the pet to be a dog named Buddy, with level of hungriness being “content”
+    a parameterized constructor to allow having any type of pet
+        the order of the parameters is: name of the pet, type of pet, hungriness level
+    a PrintInfo function that prints the info for the pet according to the sample output below
+    a TimePasses function that increases the hungry level of the pet by one (unless its hungry level is already 2, meaning hungry).
+    a FeedPet function that changes the hungry level of the pet to 0 (Full)
+
+You must write your class in separate .h and .cpp files. We have set zybooks up so that the files are already provided for you, and you can edit them directly in zybooks, or copy-paste from an IDE that you do your work in. You can switch between files by clicking the drop-down menu above the editing space in zybooks.
+
+Sample Output
+
+For a default pet (dog, named “Buddy”, content):
+
+A dog named Buddy who is hungry level 1.
+
+For a pet cat named Fluffy, who is content::
+
+A cat named Fluffy who is hungry level 1.
+
+For a hamster named Sparky who is full:
+
+A hamster named Sparky who is hungry level 0. 
