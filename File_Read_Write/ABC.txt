@@ -1,0 +1,4 @@
+addition of 1,1 is 2
+subtraction 1 from 1 results 0
+Multiplication 1 with 1 results 1
+Division 1 with 1 results 1
