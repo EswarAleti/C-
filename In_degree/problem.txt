@@ -1,0 +1,25 @@
+Sample Run 2: Assume that the user typed the following lines
+
+5
+
+4
+
+0 1
+
+1 2
+
+0 2
+
+3 4
+
+This is the correct output.
+
+In-degree[0]:0
+
+In-degree[1]:1
+
+In-degree[2]:2
+
+In-degree[3]:0
+
+In-degree[4]:1
