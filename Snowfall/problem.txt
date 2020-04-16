@@ -1,0 +1,5 @@
+
+
+Must be answered in C++
+
+Write a program that ask the user to create a vector holding double values. Read few values from the user and then user must enter a value, as “0.0” after entering the few values. The first set of values before the “0.0” are snowfall levels in Detroit and set of values after “0.0” are snowfall levels of Seattle. The program display the average snowfall of both cities on separate lines.
