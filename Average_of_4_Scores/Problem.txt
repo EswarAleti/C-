@@ -1,0 +1,30 @@
+
+
+    Write a program named Lab16C that calculates the average of a group of test scores where the lowest score is dropped. It should use the following functions.
+        void getScores should have 4 double reference parameters (one for each test score)
+        getScores should do the following:
+
+- ask the user for 4 test scores,
+- store them in the reference parameters
+
+    void calcAverage (4 double parameters) should do the following:
+
+- call findLowest passing the test scores as parameters
+
+- total the 4 scores and subtract the result returned by findLowest
+
+- this will leave you with the total of 3 test scores, so divide the total by 3
+
+- print the average with a label
+
+    double findLowest (so it has 4 double parameters) should find and return the lowest of the 4 scores passed to it.
+
+    In the main function
+
+- call getScores sending 4 double variables as parameters
+
+- call calcAverage sending those 4 double variables
+
+Note about reference parameters: remember that with reference parameters, you will use the & in the top line of the function itself, but you will not use the & in the call to the function in main.
+
+COMMENT: Please Use a C++ Compiler. Thank you
