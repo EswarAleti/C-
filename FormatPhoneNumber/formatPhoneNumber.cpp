@@ -29,17 +29,17 @@ int main()
 	string formattedPhoneNo="(";
 	for(int i=0;i<10;i++)
 	{
-		formattedPhoneNo.push_back(digits[i]);
+		//Add digit to the end of formattedPhoneNo
+		formattedPhoneNo+=digits[i];
 		//After appending digit at index 2 apend ") "
 		if(i==2)
 		{
-			formattedPhoneNo.push_back(')');
-			formattedPhoneNo.push_back(' ');
+			formattedPhoneNo+=") ";
 		}
 		//After appending digit at index 5 apend "-"
 		if(i==5)
 		{
-			formattedPhoneNo.push_back('-');
+			formattedPhoneNo+="-";
 		}
 	}
 	//Print output
