@@ -160,15 +160,14 @@ int BTreeNode::height(BTreeNode *t)
 {
 	if(t)
 	{
+		//Height of left sub tree
+		int left = height(t->left);
+		//Height of right sub tree
+		int right = height(t->right);
 		//1+ maximum of height of left and right sub tree
-		return 1+max(height(t->left),height(t->right));
+		return 1+(left>right?left:right);
 	}
 	return 0;
-}
-
-int max(int a,int b)
-{
-	return a>b?a:b;
 }
 
 int main()
