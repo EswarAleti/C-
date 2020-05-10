@@ -1,0 +1,8 @@
+Write a class named QuestionA including the following methods: use C++
+two global variables (named gvar1 and gvar2), both of which are instance variables and integers.
+One static variable (namedP1), the data type of which is double and the value of which is 3.14159.
+an instance method named funA which has three parameters and a return statement. The data type of each parameters is integer. The method returns the max of three parameters in its return statement.
+an instance method named funB which has three parameters and a return statement. The data type of each parameters is double. The method will return the sum of three parameters in its return statement.
+an instance method named funC which has one parameter named psum and has no return statement. The data type of the parameter is integer. The method choose the bigger one from two global variables (gvar1 and gvar2) and then assigns that to the parameter psum. Finally, the method prints the value of psum.
+a static function named funD which has one parameter named radius and a return statement. The data type of the parameters is integer. The function returns the volume of a ball based on the formula: 4/3*PI*radius*radius*radius.
+A main method that will call all methods/functions above. When calling funB, it will use pass-by-reference. When calling other functions, it will use pass-by-value.
